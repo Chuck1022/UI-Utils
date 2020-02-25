@@ -1,0 +1,22 @@
+{
+  "name": "UI-Utils",
+  "version": "0.1.0",
+  "summary": "A short description of UI-Utils.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Chuck Wang/UI-Utils",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Chuck Wang": "chuck.wang@spark.co.nz"
+  },
+  "source": {
+    "git": "https://github.com/Chuck Wang/UI-Utils.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "UI-Utils/Classes/**/*"
+}
