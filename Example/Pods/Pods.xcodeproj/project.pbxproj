@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		287829245C9EBD7BF44397B9A1E8B030 /* Pods-UI-Utils_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1FE6AB32D72AA42D12ACAC45A1F11D1 /* Pods-UI-Utils_Tests-dummy.m */; };
 		3148A8032405DCA200E6DDA2 /* UIViewController+Visible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3148A8022405DCA200E6DDA2 /* UIViewController+Visible.swift */; };
+		3148A82A2407CB5A00E6DDA2 /* Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3148A8292407CB5A00E6DDA2 /* Transition.swift */; };
 		49205F84150EC1929852DA28B6BA2DA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		583B4C5ED7F54288C3ED746F7AA03F08 /* UI-Utils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2C1FDBEAA15F84ABB4971A7992ECAE /* UI-Utils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		74B9B4C2DF1F625AE0FA4AEC2E476CA5 /* UI-Utils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ACF965388A20F125E4B169C0F9974112 /* UI-Utils-dummy.m */; };
@@ -44,6 +45,7 @@
 		28595D8EE67AF1890A922990ACA76B0C /* Pods-UI-Utils_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UI-Utils_Example-frameworks.sh"; sourceTree = "<group>"; };
 		2EECF2F2EA052899CAF76C79AF7B5F25 /* UI-Utils.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UI-Utils.xcconfig"; sourceTree = "<group>"; };
 		3148A8022405DCA200E6DDA2 /* UIViewController+Visible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Visible.swift"; sourceTree = "<group>"; };
+		3148A8292407CB5A00E6DDA2 /* Transition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transition.swift; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		34F66315B18A7B46FC734378BC15DA61 /* Pods-UI-Utils_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UI-Utils_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4003E86E5A7C3E2EFF6F82106FB6B50A /* Pods-UI-Utils_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UI-Utils_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -224,6 +226,7 @@
 				3148A8012405DC8000E6DDA2 /* Extension */,
 				2512AC20EB84428CDB186369D8C3279B /* Pod */,
 				EA756D68112ACDEE149710290F39E462 /* Support Files */,
+				3148A8292407CB5A00E6DDA2 /* Transition.swift */,
 			);
 			name = "UI-Utils";
 			path = ../..;
@@ -377,6 +380,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3148A82A2407CB5A00E6DDA2 /* Transition.swift in Sources */,
 				9EEE4023B1978CEA57046E3ACED91106 /* Pods-UI-Utils_Example-dummy.m in Sources */,
 				3148A8032405DCA200E6DDA2 /* UIViewController+Visible.swift in Sources */,
 			);
